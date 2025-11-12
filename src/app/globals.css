@@ -1,0 +1,93 @@
+@import "tailwindcss";
+
+:root {
+  --background: #fff1f7; /* very light pink */
+  --foreground: #3a0d1b; /* deep rose text */
+  --pink-50: #fff1f7;
+  --pink-100: #ffe4ef;
+  --pink-200: #ffbdd4;
+  --pink-300: #ff94b9;
+  --pink-400: #ff6da0;
+  --pink-500: #ff4b8a;
+  --pink-600: #e63777;
+  --pink-700: #c22664;
+  --pink-800: #9a1e52;
+  --pink-900: #721641;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-pink-50: var(--pink-50);
+  --color-pink-100: var(--pink-100);
+  --color-pink-200: var(--pink-200);
+  --color-pink-300: var(--pink-300);
+  --color-pink-400: var(--pink-400);
+  --color-pink-500: var(--pink-500);
+  --color-pink-600: var(--pink-600);
+  --color-pink-700: var(--pink-700);
+  --color-pink-800: var(--pink-800);
+  --color-pink-900: var(--pink-900);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #1a0a12;
+    --foreground: #ffe4ef;
+  }
+}
+
+body {
+  background: radial-gradient(1200px 600px at 10% -10%, var(--pink-200), transparent),
+    radial-gradient(1000px 500px at 90% 0%, var(--pink-100), transparent),
+    linear-gradient(180deg, var(--pink-50), #ffffff 60%);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Decorative floating hearts background */
+.hearts-bg::before,
+.hearts-bg::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background-image:
+    radial-gradient(circle at 20% 30%, rgba(255, 107, 150, 0.08) 0 70px, transparent 71px),
+    radial-gradient(circle at 70% 10%, rgba(255, 75, 138, 0.08) 0 60px, transparent 61px),
+    radial-gradient(circle at 85% 75%, rgba(255, 148, 185, 0.08) 0 80px, transparent 81px);
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+
+/* Cute card style */
+.card {
+  background: linear-gradient(180deg, #ffffffcc, #fff7fbcc);
+  border: 1px solid rgba(255, 107, 150, 0.2);
+  border-radius: 16px;
+  backdrop-filter: blur(6px);
+  box-shadow: 0 10px 30px rgba(255, 75, 138, 0.12);
+}
+
+.btn-pink {
+  background: linear-gradient(90deg, var(--pink-500), var(--pink-400));
+  color: white;
+  border: none;
+  border-radius: 9999px;
+  padding: 10px 18px;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+  box-shadow: 0 8px 20px rgba(255, 75, 138, 0.35);
+}
+.btn-pink:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 10px 24px rgba(255, 75, 138, 0.45);
+}
+
+.pink-gradient-text {
+  background: linear-gradient(90deg, var(--pink-700), var(--pink-500), var(--pink-700));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
