@@ -55,10 +55,6 @@ export default function ScrapbookOpening({ onComplete }: ScrapbookOpeningProps) 
           {/* Left Page */}
           <motion.div
             className="absolute left-0 top-0 w-1/2 h-full bg-gradient-to-br from-amber-600 to-amber-800 shadow-2xl origin-right"
-            initial={{ rotateY: 0 }}
-            animate={{ rotateY: currentStep >= 1 ? -180 : 0 }}
-            transition={{ duration: 1.5, ease: "easeInOut" }}
-            style={{ transformStyle: "preserve-3d" }}
           >
             {/* Page Content */}
             <div className="absolute inset-0 bg-white p-8 flex flex-col items-center justify-center">
@@ -68,15 +64,6 @@ export default function ScrapbookOpening({ onComplete }: ScrapbookOpeningProps) 
                 animate={{ opacity: currentStep >= 1 ? 1 : 0, scale: currentStep >= 1 ? 1 : 0.8 }}
                 transition={{ duration: 0.8, delay: 0.5 }}
               >
-                <motion.div
-                  className="text-6xl mb-4"
-                  animate={{ rotate: [0, 10, -10, 0] }}
-                  transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
-                >
-                  💕
-                </motion.div>
-                <h2 className="text-2xl font-bold pink-gradient-text mb-2">Our Love Story</h2>
-                <p className="text-pink-600">A digital scrapbook of memories</p>
               </motion.div>
             </div>
           </motion.div>
@@ -84,8 +71,8 @@ export default function ScrapbookOpening({ onComplete }: ScrapbookOpeningProps) 
           {/* Right Page */}
           <motion.div
             className="absolute right-0 top-0 w-1/2 h-full bg-gradient-to-br from-amber-600 to-amber-800 shadow-2xl origin-left"
-            initial={{ rotateY: 0 }}
-            animate={{ rotateY: currentStep >= 2 ? 180 : 0 }}
+            initial={{ rotateY: 180 }}
+            animate={{ rotateY: currentStep >= 2 ? 0 : 180 }}
             transition={{ duration: 1.5, ease: "easeInOut", delay: 0.5 }}
             style={{ transformStyle: "preserve-3d" }}
           >
@@ -97,15 +84,6 @@ export default function ScrapbookOpening({ onComplete }: ScrapbookOpeningProps) 
                 animate={{ opacity: currentStep >= 2 ? 1 : 0, scale: currentStep >= 2 ? 1 : 0.8 }}
                 transition={{ duration: 0.8, delay: 0.5 }}
               >
-                <motion.div
-                  className="text-6xl mb-4"
-                  animate={{ scale: [1, 1.2, 1] }}
-                  transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
-                >
-                  📖
-                </motion.div>
-                <h2 className="text-2xl font-bold pink-gradient-text mb-2">Welcome</h2>
-                <p className="text-pink-600">Turn the pages of our journey</p>
               </motion.div>
             </div>
           </motion.div>
@@ -169,7 +147,7 @@ export default function ScrapbookOpening({ onComplete }: ScrapbookOpeningProps) 
                   animate={{ y: 0, opacity: 1 }}
                   transition={{ duration: 0.6, delay: 0.2 }}
                 >
-                  Welcome to Our Love Story
+                  This is our scrapbook!
                 </motion.h1>
                 <motion.p
                   className="text-lg text-pink-600"
@@ -177,7 +155,7 @@ export default function ScrapbookOpening({ onComplete }: ScrapbookOpeningProps) 
                   animate={{ y: 0, opacity: 1 }}
                   transition={{ duration: 0.6, delay: 0.4 }}
                 >
-                  Click to begin your journey through our memories...
+                  Click to look through our memories!
                 </motion.p>
               </motion.div>
             </motion.div>
