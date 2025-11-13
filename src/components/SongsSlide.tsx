@@ -5,12 +5,12 @@ import Image from "next/image";
 import AnimatedCard from "./AnimatedCard";
 
 const songs = [
-  { title: "Saturn", artist: "SZA", reason: "Our first song together", coverImage: "/song-covers/saturn.png" },
-  { title: "Superposition", artist: "Daniel Caesar", reason: "The first song you played in my car", coverImage: "/song-covers/superposition.jpeg" },
-  { title: "Latch", artist: "Sam Smith", reason: "You never stopped playing this song...", coverImage: "/song-covers/latch.png" },
-  { title: "Somewhere In Brooklyn", artist: "Bruno Mars", reason: "First Bruno Mars song that I didn't hear before", coverImage: "/song-covers/somewhere-in-brooklyn.jpeg" },
-  { title: "Lavender Buds", artist: "MF DOOM", reason: "You also showed me this song!", coverImage: "/song-covers/lavender-buds.jpg" },
-  { title: "Love Me Not", artist: "Ravyn Lenae", reason: "We listened to this song together on the way to the bay", coverImage: "/song-covers/love-me-not.jpg" }
+  { title: "Saturn", artist: "SZA", reason: "Our first song together", coverImage: "/scrapbook/song-covers/saturn.png" },
+  { title: "Superposition", artist: "Daniel Caesar", reason: "The first song you played in my car", coverImage: "/scrapbook/song-covers/superposition.jpeg" },
+  { title: "Latch", artist: "Sam Smith", reason: "You never stopped playing this song...", coverImage: "/scrapbook/song-covers/latch.png" },
+  { title: "Somewhere In Brooklyn", artist: "Bruno Mars", reason: "First Bruno Mars song that I didn't hear before", coverImage: "/scrapbook/song-covers/somewhere-in-brooklyn.jpeg" },
+  { title: "Lavender Buds", artist: "MF DOOM", reason: "You also showed me this song!", coverImage: "/scrapbook/song-covers/lavender-buds.jpg" },
+  { title: "Love Me Not", artist: "Ravyn Lenae", reason: "We listened to this song together on the way to the bay", coverImage: "/scrapbook/song-covers/love-me-not.jpg" }
 ];
 
 export default function SongsSlide() {

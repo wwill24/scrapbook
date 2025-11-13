@@ -9,42 +9,42 @@ const restaurants = [
     name: "Malatang", 
     location: "San Mateo",
     description: "We kinda spammed this spot a little too much...",
-    photo: "restaurant-photos/malatang.jpg",
+    photo: "/scrapbook/restaurant-photos/malatang.jpg",
     date: "August 2024"
   },
   { 
     name: "Texas De Brazil", 
     location: "Irvine",
     description: "Wanted to come here for a date but turned out to be a bad experience...",
-    photo: "restaurant-photos/fogo-de-chao.jpg",
+    photo: "/scrapbook/restaurant-photos/fogo-de-chao.jpg",
     date: "February 2025"
   },
   { 
     name: "Ghiradelli", 
     location: "San Francisco",
     description: "A crazy yummy sundae (my first one ever lol) and I took too much when I said I didn't really want any",
-    photo: "restaurant-photos/ghiradelli.jpg",
+    photo: "/scrapbook/restaurant-photos/ghiradelli.jpg",
     date: "June 2025"
   },
   { 
     name: "Dim Sum", 
     location: "San Francisco",
     description: "First time getting dim sum in the bay!!!",
-    photo: "restaurant-photos/dimsum.jpg",
+    photo: "/scrapbook/restaurant-photos/dimsum.jpg",
     date: "June 2025"
   },
   { 
     name: "Bocconcino", 
     location: "San Francisco",
     description: "The best pasta ever!!! Fun food crawl that we had hehe",
-    photo: "restaurant-photos/boccocino.jpg",
+    photo: "/scrapbook/restaurant-photos/boccocino.jpg",
     date: "June 2024"
   },
   { 
     name: "Ox 9 Noodle", 
     location: "San Mateo",
     description: "I really liked this place! :D ",
-    photo: "restaurant-photos/ox9.jpg",
+    photo: "/scrapbook/restaurant-photos/ox9.jpg",
     date: "August 2024"
   },
 ];
