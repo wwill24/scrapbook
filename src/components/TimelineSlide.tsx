@@ -23,21 +23,21 @@ const milestones = [
     date: "September 2024", 
     title: "Paramount", 
     description: "We watched Minions!",
-    photo: "/scrapbook/timeline-photos/paramount.jpg",
+    photo: "/scrapbook/timeline-photos/paramount.JPG",
     side: "left"
   },
   { 
     date: "October 2024", 
     title: "Halloween Party", 
     description: "Funny looking slinky dog costume LOL",
-    photo: "/scrapbook/timeline-photos/october1.jpg",
+    photo: "/scrapbook/timeline-photos/october1.JPG",
     side: "right"
   },
   { 
     date: "November 2024", 
     title: "AKPSI event", 
     description: "First time dressing nicely together LOL",
-    photo: "/scrapbook/timeline-photos/november.jpg",
+    photo: "/scrapbook/timeline-photos/november.JPG",
     side: "left"
   },
   { 
@@ -56,23 +56,23 @@ const milestones = [
   },
   { 
     date: "February 2025", 
-    title: "Chocolate Bananas", 
-    description: "Getting chocolate bananas at Newport!",
-    photo: "/scrapbook/timeline-photos/december.jpg",
+    title: "Las Vegas", 
+    description: "At the clubs in Vegas!",
+    photo: "/scrapbook/timeline-photos/february.jpg",
     side: "right"
   },
   { 
     date: "March 2025", 
     title: "Crime Junkie", 
     description: "Going to a crime junkie event after listening to it in the car a million times",
-    photo: "/scrapbook/timeline-photos/march.jpg",
+    photo: "/scrapbook/timeline-photos/march.JPG",
     side: "left"
   },
   { 
     date: "April 2025", 
     title: "Descanso Gardens", 
     description: "What a pretty place for us to go",
-    photo: "/scrapbook/timeline-photos/april.jpg",
+    photo: "/scrapbook/timeline-photos/april.JPG",
     side: "right"
   },
   { 
@@ -100,14 +100,14 @@ const milestones = [
     date: "August 2025", 
     title: "1 year!!!", 
     description: "Fun times boating and getting stuck!!!",
-    photo: "/scrapbook/timeline-photos/sf-boat.jpg",
+    photo: "/scrapbook/timeline-photos/sf-boat.JPG",
     side: "right"
   },
   { 
     date: "August 2025", 
     title: "1 year (second photo)", 
     description: "Anniversary dinner!",
-    photo: "/scrapbook/timeline-photos/1year.jpg",
+    photo: "/scrapbook/timeline-photos/1year.JPG",
     side: "right"
   },
 ];

@@ -7,7 +7,7 @@ const memories = [
   { 
     title: "First Date", 
     description: "I asked you out here :D", 
-    image: "memory-photos/first-date.jpg" 
+    image: "memory-photos/first-date.JPG" 
   },
   { 
     title: "First Time at Ikea", 
