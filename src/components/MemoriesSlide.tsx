@@ -7,32 +7,32 @@ const memories = [
   { 
     title: "First Date", 
     description: "I asked you out here :D", 
-    image: "/memory-photos/first-date.jpg" 
+    image: "memory-photos/first-date.jpg" 
   },
   { 
     title: "First Time at Ikea", 
     description: "Two monkeys in one photo!", 
-    image: "/memory-photos/ikea.jpg" 
+    image: "memory-photos/ikea.jpg" 
   },
   { 
     title: "First Trip to Downtown Disney", 
     description: "You make me wear the silly Mickey ears", 
-    image: "/memory-photos/dt-disney.jpg" 
+    image: "memory-photos/dt-disney.jpg" 
   },
   { 
     title: "First Trip to Aquarium", 
     description: "Monterey Bay Aquarium!!! We love the otters", 
-    image: "/memory-photos/aquarium.jpg" 
+    image: "memory-photos/aquarium.jpg" 
   },
   { 
     title: "First Sports Game", 
     description: "Finally we went to a sports game", 
-    image: "/memory-photos/giants-game.jpg" 
+    image: "memory-photos/giants-game.jpg" 
   },
   { 
     title: "First Time at the Gardens", 
     description: "Descanso Gardens easily one of the best places we've been", 
-    image: "/memory-photos/descansco-garden.jpg" 
+    image: "memory-photos/descansco-garden.jpg" 
   },
 ];
 

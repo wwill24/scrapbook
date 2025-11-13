@@ -9,105 +9,105 @@ const milestones = [
     date: "July 2024", 
     title: "First Hangout", 
     description: "Goofy pre-club time! LOL",
-    photo: "/timeline-photos/first-hangout.jpg",
+    photo: "timeline-photos/first-hangout.jpg",
     side: "left"
   },
   { 
     date: "August 2024", 
     title: "First Date", 
     description: "Painting!!!! Miffy with no leg and Charmander that looks dumb",
-    photo: "/timeline-photos/paintings.jpg",
+    photo: "timeline-photos/paintings.jpg",
     side: "right"
   },
   { 
     date: "September 2024", 
     title: "Paramount", 
     description: "We watched Minions!",
-    photo: "/timeline-photos/paramount.jpg",
+    photo: "timeline-photos/paramount.jpg",
     side: "left"
   },
   { 
     date: "October 2024", 
     title: "Halloween Party", 
     description: "Funny looking slinky dog costume LOL",
-    photo: "/timeline-photos/october1.jpg",
+    photo: "timeline-photos/october1.jpg",
     side: "right"
   },
   { 
     date: "November 2024", 
     title: "AKPSI event", 
     description: "First time dressing nicely together LOL",
-    photo: "/timeline-photos/november.jpg",
+    photo: "timeline-photos/november.jpg",
     side: "left"
   },
   { 
     date: "December 2024", 
     title: "Chocolate Bananas", 
     description: "Getting chocolate bananas at Newport!",
-    photo: "/timeline-photos/december.jpg",
+    photo: "timeline-photos/december.jpg",
     side: "right"
   },
   { 
     date: "January 2025", 
     title: "Birthday", 
     description: "Pookie birthday with friends surprising",
-    photo: "/timeline-photos/january.jpg",
+    photo: "timeline-photos/january.jpg",
     side: "left"
   },
   { 
     date: "February 2025", 
     title: "Chocolate Bananas", 
     description: "Getting chocolate bananas at Newport!",
-    photo: "/timeline-photos/december.jpg",
+    photo: "timeline-photos/december.jpg",
     side: "right"
   },
   { 
     date: "March 2025", 
     title: "Crime Junkie", 
     description: "Going to a crime junkie event after listening to it in the car a million times",
-    photo: "/timeline-photos/march.jpg",
+    photo: "timeline-photos/march.jpg",
     side: "left"
   },
   { 
     date: "April 2025", 
     title: "Descanso Gardens", 
     description: "What a pretty place for us to go",
-    photo: "/timeline-photos/april.jpg",
+    photo: "timeline-photos/april.jpg",
     side: "right"
   },
   { 
     date: "May 2025", 
     title: "Graduation", 
     description: "Finally graduated!!!",
-    photo: "/timeline-photos/may.jpg",
+    photo: "timeline-photos/may.jpg",
     side: "left"
   },
   { 
     date: "June 2025", 
     title: "Alcatraz", 
     description: "Pookie locked up for being mean to me...",
-    photo: "/timeline-photos/june.jpg",
+    photo: "timeline-photos/june.jpg",
     side: "right"
   },
   { 
     date: "July 2025", 
     title: "Revival Ice Cream", 
     description: "Revival Ice Cream after the aquarium!!",
-    photo: "/timeline-photos/july.jpg",
+    photo: "timeline-photos/july.jpg",
     side: "left"
   },
   { 
     date: "August 2025", 
     title: "1 year!!!", 
     description: "Fun times boating and getting stuck!!!",
-    photo: "/timeline-photos/sf-boat.jpg",
+    photo: "timeline-photos/sf-boat.jpg",
     side: "right"
   },
   { 
     date: "August 2025", 
     title: "1 year (second photo)", 
     description: "Anniversary dinner!",
-    photo: "/timeline-photos/1year.jpg",
+    photo: "timeline-photos/1year.jpg",
     side: "right"
   },
 ];
